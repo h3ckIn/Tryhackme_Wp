@@ -1,6 +1,6 @@
 # b3dr0ck
 
-![image-20250603164430290](https://github.com/h3ckIn/Tryhackme_Wp/blob/main/CTF-Easy/assets/image-20250603164430290.png)
+![image-20250603164430290](./assets/image-20250603164430290.png)
 
 直接访问发现跳转到了4040端口
 
