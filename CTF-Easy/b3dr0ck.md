@@ -1,6 +1,7 @@
 # b3dr0ck
 
-![image-20250603164430290](.\assets\image-20250603164430290.png)
+
+![image-20250603164430290](./assets/image-20250603164430290.png)
 
 直接访问发现跳转到了4040端口
 
@@ -62,6 +63,7 @@ PORT      STATE SERVICE      VERSION
 
 访问54321
 
+
 ![image-20250603170609830](.\assets\image-20250603170609830.png)
 
 访问呢9001
@@ -74,19 +76,23 @@ PORT      STATE SERVICE      VERSION
 
 ![image-20250603172916575](.\assets\image-20250603172916575.png)
 
+
 这个我们认为是公钥
 
 
 
 我们查看一下--help
 
+
 **![image-20250603173052648](.\assets\image-20250603173052648.png)**
+
 
 ```
 socat stdio ssl:MACHINE_IP:54321,cert=<CERT_FILE>,key=<KEY_FILE>,verify=0
 ```
 
 ![image-20250603173505390](.\assets\image-20250603173505390.png)
+
 
 这个提示这个服务是为了login和password提示用的
 
@@ -127,6 +133,7 @@ sudo -l发现开始送分了
 
 ![image-20250603175631983](.\assets\image-20250603175631983.png)
 
+
 先base64再base32在base64得到md5，在破解
 
 然后得到root的密码
@@ -134,4 +141,5 @@ sudo -l发现开始送分了
 最后直接su root
 
 ![image-20250603175859635](.\assets\image-20250603175859635.png)
+
 
